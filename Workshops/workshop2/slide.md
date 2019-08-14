@@ -1,5 +1,8 @@
 <!-- page_number: true -->
 
+<!-- $size: A4 -->
+
+
 # COMP10002 Foundations of Algorithms
 
 ## Workshop Week3  
@@ -123,12 +126,50 @@ printf("month=%2d, length_of_month=%2d\n", month,length_of_month);
   ```
 ---
 
+# Discussion
+
+
+##### Exercise 4.2
+ Given a general construction that shows how any ___do___ statement can be converted into an equivalent ___while___ statement
+
+---
+# while() vs. do...while()
+
+![](http://python.cs.southern.edu/csharpbook/figures/whilevsdowhileflowchart.png)
+
+---
+
+# while() vs. do...while()
+- do...while()
+  ```C
+  int i = 0;
+  do{
+      printf("i = %d\n", i);
+      i++;
+
+  }while(i < 10);
+  ```
+- while()  
+  ```C
+  int j = 0;
+  printf("j = %d\n", j);
+  j++;
+  while (j < 10) {
+      printf("j = %d\n", j);
+      j++;
+  }
+  ```
+
+---
+
+
+
 # Discussion  
 ##### Exercise 4.1
 a. 
 ```C
 for (int i = 0; i < 20; i = i + 3){
-        printf("%2d\n", i);
+    printf("%2d\n", i);
 }
 ```
 b. 
@@ -137,7 +178,6 @@ for (i = 1; i < 2000000; i = 2*i){
     printf("%7d\n", i);
 }
 ```
----
 c. 
 ```C
 int sum = 0;
@@ -146,6 +186,8 @@ for (i = 1; i < 10; i++){
     printf("S(%2d) = %2d\n", i, sum);
 }
 ```
+---
+
 d. 
 ```C
 int i, j;
@@ -155,7 +197,6 @@ for (i = 0; i < 8; i++) {
     }
 }
 ```
----
 e. 
 ```C
 int i, j;
@@ -187,39 +228,9 @@ for (i = 0; i < j; j++) {
 ```
 
 ---
-# Discussion
+# Functions
+<img src="./pics/function.jpg" width = "700" height = "" alt="function"/>
 
-<br>
-
-##### Exercise 4.2
- Given a general construction that shows how any ___do___ statement can be converted into an equivalent ___while___ statement
-
----
-# while() vs. do...while()
-
-![](http://python.cs.southern.edu/csharpbook/figures/whilevsdowhileflowchart.png)
-
----
-# while() vs. do...while()
-- do...while()
-  ```C
-  int i = 0;
-  do{
-      printf("i = %d\n", i);
-      i++;
-
-  }while(i < 10);
-  ```
-- while()  
-  ```C
-  int j = 0;
-  printf("j = %d\n", j);
-  j++;
-  while (j < 10) {
-      printf("j = %d\n", j);
-      j++;
-  }
-  ```
 
 ---
 

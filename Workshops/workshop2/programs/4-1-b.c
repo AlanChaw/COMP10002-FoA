@@ -1,13 +1,4 @@
-//
-//  main.c
-//  MyCTest
-//
-//  Created by 文彬 on 2019/7/30.
-//  Copyright © 2019 wenbin. All rights reserved.
-//
 
-/* Determine if an input number is prime.
- */
 #include <stdio.h>
 #include <stdlib.h>
 
