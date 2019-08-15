@@ -106,60 +106,7 @@ printf("month=%2d, length_of_month=%2d\n", month,length_of_month);
       printf("i = %d\n", i);
   }
   ```
-
----
-# "while" loop
-- Grammar  
-
-  ```C
-  while (guard){
-      statement
-  }
-  ```
-- Example  
-  ```C
-  int i = 0;
-  while (i < 10){
-      printf("i = %d\n", i);
-      i++;
-  }
-  ```
----
-
-# Discussion
-
-
-##### Exercise 4.2
- Given a general construction that shows how any ___do___ statement can be converted into an equivalent ___while___ statement
-
----
-# while() vs. do...while()
-
-![](http://python.cs.southern.edu/csharpbook/figures/whilevsdowhileflowchart.png)
-
----
-
-# while() vs. do...while()
-- do...while()
-  ```C
-  int i = 0;
-  do{
-      printf("i = %d\n", i);
-      i++;
-
-  }while(i < 10);
-  ```
-- while()  
-  ```C
-  int j = 0;
-  printf("j = %d\n", j);
-  j++;
-  while (j < 10) {
-      printf("j = %d\n", j);
-      j++;
-  }
-  ```
-
+ 
 ---
 
 
@@ -168,7 +115,7 @@ printf("month=%2d, length_of_month=%2d\n", month,length_of_month);
 ##### Exercise 4.1
 a. 
 ```C
-for (int i = 0; i < 20; i = i + 3){
+for (i = 0; i < 20; i = i + 3){
     printf("%2d\n", i);
 }
 ```
@@ -233,6 +180,62 @@ for (i = 0; i < j; j++) {
 
 
 ---
+
+
+# "while" loop
+- Grammar  
+
+  ```C
+  while (guard){
+      statement
+  }
+  ```
+- Example  
+  ```C
+  int i = 0;
+  while (i < 10){
+      printf("i = %d\n", i);
+      i++;
+  }
+  ```
+---
+
+# Discussion
+
+
+##### Exercise 4.2
+ Given a general construction that shows how any ___do___ statement can be converted into an equivalent ___while___ statement
+
+---
+# while() vs. do...while()
+
+![](http://python.cs.southern.edu/csharpbook/figures/whilevsdowhileflowchart.png)
+
+---
+
+# while() vs. do...while()
+- do...while()
+  ```C
+  int i = 0;
+  do{
+      printf("i = %d\n", i);
+      i++;
+
+  }while(i < 10);
+  ```
+- while()  
+  ```C
+  int j = 0;
+  printf("j = %d\n", j);
+  j++;
+  while (j < 10) {
+      printf("j = %d\n", j);
+      j++;
+  }
+  ```
+
+---
+
 
 # Hands On Exercises
 
