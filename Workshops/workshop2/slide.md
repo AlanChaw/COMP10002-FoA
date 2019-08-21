@@ -173,14 +173,7 @@ for (i = 0; i < j; j++) {
     printf("i = %d, j = %d\n", i, j);
 }
 ```
-
 ---
-# Functions
-<img src="./pics/function.jpg" width = "700" height = "" alt="function"/>
-
-
----
-
 
 # "while" loop
 - Grammar  
@@ -233,6 +226,12 @@ for (i = 0; i < j; j++) {
       j++;
   }
   ```
+
+---
+
+# Functions
+<img src="./pics/function.jpg" width = "700" height = "" alt="function"/>
+
 
 ---
 
