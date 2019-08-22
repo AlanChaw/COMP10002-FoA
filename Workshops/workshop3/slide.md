@@ -199,11 +199,11 @@ Modify the program of Figure 7.3 on page 104 so that after the array has been so
 ### Exercise 6.9
 
 - Try to solve this question step by step
-	- Copy, paste and run the program for Exercise 3.6
-	- Add try_one_coin() function, and test
-	- Add print_change() function, and test
-	- Add round_to_5() function, and test
-	- Write a loop to iterate the input from 1 to 1000 ($10)
+	- Copy, paste, read through, and run the program for __Exercise 3.6__
+	- Add __try_one_coin()__ function, and test
+	- Add __print_change()__ function, and test
+	- Add __round_to_5()__ function, and test
+	- Write a __loop__ to iterate the input from 1 to 1000 ($10)
 
 ### Exercise 7.4
 
