@@ -1,3 +1,5 @@
+<!-- $theme: default -->
+
 <!-- page_number: true -->
 
 <!-- $size: A4 -->
