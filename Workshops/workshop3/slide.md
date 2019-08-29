@@ -181,7 +181,8 @@ int main(){
     printf("Before pass to function: %d\n", a);
     myfunc(p);
     printf("After executed of function: %d\n", a);
-
+    printf("After executed of function: %d\n", *p);
+    
     return 0;
 }
 ```
