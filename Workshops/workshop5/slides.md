@@ -90,18 +90,21 @@ void sort_int_array(int A[], int n) {
 
 # String
 
-### - In C, there is no pre-defined string type, instead, we use *char.
+### - In C, there is no pre-defined string type, instead, we use char [].
 
 ```C
-char *p = "Hello";
-
+char *p = "Hello";   /* cannot be modified */
+/* 
+char p[6] = {'H','e','l','l','o','\0'};
+char p[] = "hello";
+*/ 
 printf("%s\n", p);
 printf("%c\n", *p);
 printf("%c\n", *(p+1));
 printf("%c\n", p[2]);
 ```
 <div  align="center">    
- <img src="./pics/string_representation.jpg" width = "700" alt="图片名称" align=center />
+ <img src="./pics/string_representation.jpg" width = "600" alt="图片名称" align=center />
 </div>
 
 ```C
