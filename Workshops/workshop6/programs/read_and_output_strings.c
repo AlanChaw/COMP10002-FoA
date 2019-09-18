@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 
 #define MAX_LENGTH 100
 #define MAX_WORDS 1000
