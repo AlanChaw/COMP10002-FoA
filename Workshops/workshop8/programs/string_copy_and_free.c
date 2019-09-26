@@ -23,6 +23,7 @@ int main(int argc, char *argv[]){
     }
     
     string_set_free(argv_dupe);
+    argv_dupe = NULL;
     return 0;
 }
 
@@ -38,8 +39,8 @@ char **string_set_dupe(char **S){
     while (*(S+count)) {
         count++;
     }
-    char** dupe = (char **)malloc(count * sizeof(*S) + 1);  /* add the last NULL pointer */
-
+    char** dupe = (char **)malloc((count+1) * sizeof(*S));  /* add the last NULL pointer */
+    assert(dupe);
     int i;
     for (i = 0; i < count; i++) {
         dupe[i] = string_dupe(*(S+i));
@@ -56,5 +57,4 @@ void string_set_free(char **S){
         count++;
     }
     free(S);
-    S = NULL;
 }

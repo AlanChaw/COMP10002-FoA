@@ -22,8 +22,9 @@ int main(){
     printf("%p\n", dupe_h);
 }
 
-char *string_dupe(char *s){	
-    char *dupe = (char *)malloc(strlen(s)*sizeof(char)+1);
+char *string_dupe(char *s){		
+    char *dupe = (char *)malloc((strlen(s) + 1)*sizeof(char));
+    assert(dupe);
     strcpy(dupe, s);
     return dupe;
 }
