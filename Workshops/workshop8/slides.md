@@ -67,7 +67,11 @@ void free(void *ptr)
 ```C
 size_t sizeof(thing)
 ```
-![](./pics/sizeof.png)
+
+<div align="center">
+<img src="./pics/sizeof.png" width="800" align=center />
+</div>
+
 
 ---
 # malloc
