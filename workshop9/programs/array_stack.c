@@ -26,6 +26,7 @@ Stack_t* make_empty_stack(void){
     s->current_size = INIT_SIZE;
     s->top = -1;
     s->data = (data_t*)malloc(sizeof(data_t)*s->current_size);
+    assert(s->dat != NULL);
     
     return s;
 }

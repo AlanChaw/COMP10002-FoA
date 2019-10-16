@@ -127,6 +127,7 @@ typedef struct {
 # Exercise 9
 
 ```C
+/* doubly linked list node */
 struct node {
     data_t data;
     node_t *next;
